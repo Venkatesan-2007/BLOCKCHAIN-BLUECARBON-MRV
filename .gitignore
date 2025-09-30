@@ -56,3 +56,21 @@ bluecarbon-frontend/www/
 
 # Ignore .pytest_cache
 .pytest_cache/
+
+# Exclude mobile/android build artifacts and generated folders
+bluecarbon-frontend/android/**/build/
+bluecarbon-frontend/android/**/outputs/
+bluecarbon-frontend/android/**/intermediates/
+bluecarbon-frontend/android/**/generated/
+bluecarbon-frontend/android/**/.gradle/
+bluecarbon-frontend/android/**/gradle-wrapper.jar
+bluecarbon-frontend/android/**/gradle-wrapper.properties
+
+# Exclude dist and node build artifacts
+bluecarbon-frontend/dist/
+bluecarbon-frontend/node_modules/
+bluecarbon-frontend/www/assets/*.map
+
+# Capacitor/cordova specific
+bluecarbon-frontend/android/
+bluecarbon-frontend/ios/

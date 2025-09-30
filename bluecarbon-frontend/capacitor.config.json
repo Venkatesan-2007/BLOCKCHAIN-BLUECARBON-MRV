@@ -1,0 +1,16 @@
+{
+  "appId": "com.bluecarbon.mrv",
+  "appName": "BlueCarbonMRV",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true,
+    "hostname": "192.168.106.148:8000"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true,
+    "contentInsetAdjustmentBehavior": "automatic"
+  }
+}
