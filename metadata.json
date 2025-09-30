@@ -1,0 +1,5 @@
+{
+  "name": "Blue Carbon Projects Dashboard",
+  "description": "An application to monitor and manage blue carbon projects, track their status, and generate carbon reports.",
+  "requestFramePermissions": []
+}
