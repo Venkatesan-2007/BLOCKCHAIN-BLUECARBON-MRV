@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+ENV/
+env/
+.python-version
+
+# Database
+*.sqlite3
+*.db
+bluecarbon.db
+
+# VSCode
+.vscode/
+
+# Node / Frontend
+bluecarbon-frontend/node_modules/
+bluecarbon-frontend/www/
+bluecarbon-frontend/android/
+
+# Build / dist
+build/
+dist/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Secrets
+secrets.json
+
+# dotenv
+.env
+
+# Byte-compiled / caches
+**/__pycache__/
+
+# Ignore compiled frontend assets
+bluecarbon-frontend/src/*.map
+bluecarbon-frontend/www/
+
+# Local IDE files
+*.suo
+*.user
+*.sln
+
+# Ignore Python compiled directories in workspace
+**/.pytest_cache/
+
+# Ignore .pytest_cache
+.pytest_cache/

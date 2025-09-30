@@ -1,0 +1,4 @@
+@app.get("/projects", response_model=list[schemas.ProjectOut])
+def get_user_projects(db: Session = Depends(get_db),
+                     current_user: schemas.UserOut = Depends(auth.get_current_user)):
+    return crud.get_user_projects(db, current_user.id)
